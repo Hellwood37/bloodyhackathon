@@ -1,0 +1,72 @@
+
+/*Style général*/
+*{
+    font-family: 'Special Elite';
+    color: #eb6123;
+    font-size: 16px;
+}
+
+/*navbar*/
+.tiret{
+    border:solid 1px #eb6123;
+    width: 28px;
+    margin: 3px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(235, 97, 35);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235, 97, 35, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar
+{
+    background-color: #303030;
+}
+
+.navbar a
+{
+    color:#eb6123;
+    
+}
+
+.navbar-brand 
+{
+    font-size: 1.6em;
+}
+
+.nav-link 
+{
+    font-size: 1.2em;
+}
+/*footer*/
+.footer ul
+{
+    background-color: #303030;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer li
+{
+    list-style: none;
+}
+
+
+.footer a
+{
+    display: flex;
+    align-items: center;
+    color:#eb6123;
+    font-size: 1em;
+}
+
+/*format mobile*/
+
+/*format tablette*/
+
+/*format pc bureau*/
