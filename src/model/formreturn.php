@@ -3,10 +3,11 @@ require_once '../../public/connec.php';
 $pdo = new \PDO(DSN, USER, PASS);
 
 
-$query = "SELECT Movie_name, Main_Character, Main_Vilain, Pitch FROM movies_pitches";
+$query = "SELECT Movie_name, Main_character, Main_vilain, Pitch FROM movies_pitches";
 $statement = $pdo->prepare($query);
 $statement->execute();
 $data = $statement->fetchAll(PDO::FETCH_ASSOC);
+
 
 ?>
 <html>
@@ -18,18 +19,19 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
         <?php
         foreach($data as $key => $value)
         {
-          foreach($value as $movie)
-          {
             echo '<div class="container-fluid">';
             echo '<div class="row">';
             echo '<div class="card">';
             echo '<div class="card-body">';
-            echo '<p>' . $movie . '</p>';
+            echo '<p>' . $value["Movie_name"] . '</p>';
+            echo '<p>' . $value["Main_character"] . '</p>';
+            echo '<p>' . $value["Main_vilain"] . '</p>';
+            echo '<p>' . $value["Pitch"] . '</p>';
             echo '</div>';
             echo '</div>';
             echo '</div>';
             echo '</div>'; 
-          }
+          
         }
         ?>
         </div>
