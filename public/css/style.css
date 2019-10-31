@@ -3,7 +3,6 @@
 *{
     font-family: 'Special Elite';
     color: #eb6123;
-    font-size: 16px;
 }
 
 /*navbar*/
@@ -23,26 +22,20 @@ body{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235, 97, 35, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navbar
-{
+.navbar{
     background-color: black;
     opacity: 0.9;
 }
-
-.navbar a
+.navbar-brand{
+    color: #eb6123;
+    margin-top: 10px;
+}
+.nav-link
 {
     color:#eb6123;
-    
-}
-
-.navbar-brand 
-{
-    font-size: 1.6em;
-}
-
-.nav-link 
-{
-    font-size: 1.2em;
+    background-color: black;
+    padding-top:16px;
+    padding-bottom: 16px;
 }
 /*footer*/
 .footer ul
@@ -71,8 +64,32 @@ body{
     font-size: 1em;
 }
 
-/*format mobile*/
+/*format desktop*/
 
-/*format tablette*/
+@media screen and (min-width:1090px){
 
-/*format pc bureau*/
+    .navbar{
+        opacity: 0.9;
+        height: 100px;
+    }
+
+    .nav-link{
+        color:#eb6123;
+        font-size :20px;
+        padding-top:35px;
+        padding-bottom: 35px;
+    }
+    .nav-item{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .nav-link:hover{
+        color: black;
+        background-color: #eb6123;
+        opacity:0.9;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
