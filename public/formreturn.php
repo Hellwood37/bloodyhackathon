@@ -1,6 +1,6 @@
 <?php
 require_once 'connec.php';
-$pdo = new \PDO(DSN, USER, PASS);
+$pdo = new \PDO(SERVER, USER, PASS);
 
 
 $query = "SELECT Movie_name, Main_character, Main_vilain, Pitch FROM movies_pitches";
