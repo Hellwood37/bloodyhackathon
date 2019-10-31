@@ -1,0 +1,58 @@
+.d-block
+{
+    display: flex;
+    width: 100%   
+}
+.d-block>img{
+    width: 100%;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.description_box 
+{
+    border-style: outset;
+    border-width: 5px;
+    border-color: #eb6123;
+    width: 90%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: black;
+    padding: 10px;
+}
+
+hr 
+{
+    margin: 0;
+}
+
+.description_box>p
+{
+    margin: 0;
+    
+}
+
+.containerButton
+{
+    
+    width: 100%;
+}
+
+.descriptionButton
+{
+    
+    background-color: #eb6123;
+    color: black;
+    width: 50%;
+    margin-left:25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 40px;
+    border-radius: 20px;
+
+}
