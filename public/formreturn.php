@@ -56,13 +56,13 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
           </div>
 </nav>
   <div class="form-return">
+  <div class="container-fluid">
+      <div class="row">
 
   <?php
         foreach($data as $key => $value)
         {
-            echo '<div class="container-fluid">';
-            echo '<div class="row">';
-            echo '<div class= "card col-sm-8 col-md-6 col-lg-4 bg-dark">';
+            echo '<div class= "card col-sm-8 col-md-6 col-lg-3  bg-dark">';
             echo '<div class="card-body">';
             echo '<p>' . "Titre : " . $value["Movie_name"] . '</p>';
             echo '<p>' . "Héro : " . $value["Main_character"] . '</p>';
@@ -70,11 +70,10 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
             echo '<p>' . "Speech : " . $value["Pitch"] . '</p>';
             echo '</div>';
             echo '</div>';
-            echo '</div>';
-            echo '</div>'; 
-            echo '</div>'; 
         }
         ?>
+      </div> 
+    </div>
   </div>
   <footer class="footer">
     <ul>
