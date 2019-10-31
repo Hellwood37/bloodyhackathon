@@ -1,6 +1,6 @@
 <?php
 require_once 'connect.php';
-$pdo = new\PDO(SERVER,USER,PASS);
+$pdo = new \PDO(SERVER,USER,PASS);
 
 
 $hasemptyfield = false;
