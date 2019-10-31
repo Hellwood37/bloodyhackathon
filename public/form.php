@@ -2,18 +2,6 @@
 require_once 'connect.php';
 $pdo = new\PDO(SERVER,USER,PASS);
 
-echo 'email: ' . $_POST['email'];
-echo '<br />';
-echo 'name:'. $_POST['name'];
-echo '<br />';
-echo 'movie:' . $_POST['movie'];
-echo '<br />';
-echo 'hero:' . $_POST['hero'];
-echo '<br />';
-echo 'vilain:' . $_POST['vilain'];
-echo '<br />';
-echo 'histoire:' . $_POST['histoire'];
-echo '<br />';
 
 $hasemptyfield = false;
 $name = $email = $movie = $hero = $vilain = "";
