@@ -54,6 +54,8 @@ if (empty($_POST['name']) === false && empty($_POST['email']) === false && empty
     $statement->bindValue(':vilain', $vilain, \PDO::PARAM_STR);
     $statement->bindValue(':histoire', $histoire, \PDO::PARAM_STR);
     $statement->execute();
+
+    header('Location: formreturn.php');
 }
 
 }

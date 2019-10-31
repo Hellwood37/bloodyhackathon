@@ -4,6 +4,7 @@
 *{
     font-family: 'Special Elite';
     color: #eb6123;
+    font-size: 16px;
 }
 
 /*navbar*/
@@ -15,7 +16,6 @@ body{
     width: 28px;
     margin: 3px;
 }
-
 .custom-toggler.navbar-toggler {
     border-color: rgb(235, 97, 35);
 }

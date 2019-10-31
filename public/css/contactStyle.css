@@ -54,7 +54,11 @@
     text-align: center;
     color:#eb6123;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 1090px){
+=======
+@media screen and (min-width: 769px){
+>>>>>>> features/formReturn
     .form-card-img{
         display:flex;
         border-style: outset;
