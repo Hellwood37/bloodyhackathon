@@ -25,18 +25,17 @@ $data = $statement->fetchAll(PDO::FETCH_ASSOC);
         {
             echo '<div class="container-fluid">';
             echo '<div class="row">';
-            echo '<div class= "card col-sm-12 col-md-6 col-lg-3">';
-            echo '<div class="test"';
+            echo '<div class= "card col-sm-8 col-md-6 col-lg-4 bg-dark">';
             echo '<div class="card-body">';
-            echo '<p>' . $value["Movie_name"] . '</p>';
-            echo '<p>' . $value["Main_character"] . '</p>';
-            echo '<p>' . $value["Main_vilain"] . '</p>';
-            echo '<p>' . $value["Pitch"] . '</p>';
+            echo '<p>' . "Titre : " . $value["Movie_name"] . '</p>';
+            echo '<p>' . "Héro : " . $value["Main_character"] . '</p>';
+            echo '<p>' . "Mechant : " . $value["Main_vilain"] . '</p>';
+            echo '<p>' . "Speech : " . $value["Pitch"] . '</p>';
             echo '</div>';
             echo '</div>';
             echo '</div>';
             echo '</div>'; 
-            echo '</div>';
+            echo '</div>'; 
         }
         ?>
   </div>
