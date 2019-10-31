@@ -54,7 +54,7 @@
     text-align: center;
     color:#eb6123;
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1090px){
     .form-card-img{
         display:flex;
         border-style: outset;
