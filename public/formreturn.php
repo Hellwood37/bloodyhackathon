@@ -1,5 +1,5 @@
 <?php
-require_once 'connec.php';
+require_once 'connect.php';
 $pdo = new \PDO(SERVER, USER, PASS);
 
 
