@@ -1,4 +1,5 @@
 
+/*format mobile*/
 /*Style général*/
 *{
     font-family: 'Special Elite';
@@ -11,13 +12,6 @@
     border:solid 1px #eb6123;
     width: 28px;
     margin: 3px;
-}
-
-.custom-toggler.navbar-toggler {
-    border-color: rgb(235, 97, 35);
-}
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235, 97, 35, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar
@@ -65,8 +59,8 @@
     font-size: 1em;
 }
 
-/*format mobile*/
-
-/*format tablette*/
-
 /*format pc bureau*/
+@media screen and (min-width: 769px)
+{
+    
+}
