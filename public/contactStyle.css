@@ -1,10 +1,18 @@
+.form-global{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.form-card-img{
+    display:none;
+}
 .contact-form{
     background-color: black;
     border-style: outset;
     border-width: 5px;
     border-color: #eb6123;
-    width: 80%;
-    margin-left:10%;
+    width: 90%;
+    margin:auto;
     margin-top:20px;
     margin-bottom: 20px;
     border-radius: 15px;
@@ -45,4 +53,28 @@
 .reponse{
     text-align: center;
     color:#eb6123;
+}
+@media screen and (min-width: 769px){
+    .form-card-img{
+        display:flex;
+        border-style: outset;
+        border-color:#eb6123;
+        border-width:5px;
+        border-radius:15px;
+        max-width:100%;
+        height:auto;
+        margin:auto;
+    }
+    .contact-form{
+        background-color: black;
+        border-style: outset;
+        border-width: 5px;
+        border-color: #eb6123;
+        width: 44%;
+        margin-left:3%;
+        margin-right:3%;
+        margin-top:20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
 }
