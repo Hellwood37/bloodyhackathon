@@ -1,5 +1,5 @@
 <?php
 
-define("SERVER", "mysql:host=localhost;dbname=bloodyhackaton");
+define("SERVER", "mysql:host=localhost;dbname=hackaton");
 define("USER", "root");
-define("PASS", "Mmp10121960!");
+define("PASS", "Vadcou401$");

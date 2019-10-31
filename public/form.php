@@ -38,7 +38,7 @@ if (empty($_POST['histoire']) === true)
 }
 if (empty($_POST['name']) === false && empty($_POST['email']) === false && empty($_POST['movie']) === false && empty($_POST['hero']) === false && empty($_POST['vilain']) === false && empty($_POST['histoire']) === false)
 {
-    echo "test";
+    echo "votre formulaire à bien été soumis";
     $name = isset($_POST['name']) ? trim($_POST['name']) : NULL;
     $email = isset($_POST['email']) ? trim($_POST['email']) : NULL;
     $movie = isset($_POST['movie']) ? trim($_POST['movie']) : NULL;
