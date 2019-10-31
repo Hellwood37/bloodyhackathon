@@ -8,9 +8,7 @@
 
 /*navbar*/
 body{
-    background-image: url("images/foret-nuit.jpg");
-    background
-    background-color: #303030;
+    background-image: url("../images/foret-nuit.jpg");
 }
 .tiret{
     border:solid 1px #eb6123;
