@@ -1,0 +1,30 @@
+{% extends 'layout.html.twig' %}
+{% block content %}
+<div class="form-global">
+  <form class="contact-form" name="email" method="post" action="contact.php">
+    <div class="form-group">
+      <label class="contact-form-label" for="exampleFormControlInput1">Votre nom :</label>
+      <input class="contact-form-input" id="nom" type="name" class="form-control" id="exampleFormControlInput1" placeholder="votre nom ici" required>
+    </div>
+    <div class="form-group">
+      <label class="contact-form-label" for="exampleFormControlInput1">Votre adresse e-mail :</label>
+      <input class="contact-form-input" id="email" name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+      <label class="contact-form-label" for="exampleFormControlSelect1">Indiquez-nous le motif de votre demande :</label>
+      <select class="contact-form-input" class="form-control" id="exampleFormControlSelect1">
+        <option>Demande d'informations</option>
+        <option>Je souhaite contacter l'un des auteurs</option>
+        <option>Je souhaite rejoindre votre équipe</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="contact-form-label" for="exampleFormControlTextarea1">Votre message :</label>
+      <textarea class="contact-form-textarea" name="message" id="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tapez votre message ici" required></textarea>
+    </div>
+    <button class="contact-form-button" type="submit" value="Envoyer">Envoyer</button>
+  </form>
+  <img src="images/michael-jeune.jpg" class="form-card-img" alt="qui l'eut cru ?">
+</div>
+
+{% endblock %}
