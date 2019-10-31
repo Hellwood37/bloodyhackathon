@@ -3,7 +3,8 @@
     display: flex;
     width: 100%   
 }
-.d-block>img{
+.d-block>img
+{
     width: 100%;
 }
 
@@ -18,12 +19,10 @@ h2
     border-width: 5px;
     border-color: #eb6123;
     width: 90%;
-    margin:auto;
-    margin-top:20px;
-    margin-bottom: 20px;
     border-radius: 15px;
     background-color: black;
     padding: 10px;
+    margin: 10px;
 }
 
 hr 
@@ -31,21 +30,27 @@ hr
     margin: 0;
 }
 
+.welcomeBlock
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
 .description_box>p
 {
     margin: 0;
-    
 }
 
 .containerButton
 {
-    
     width: 100%;
 }
 
 .descriptionButton
 {
-    
     background-color: #eb6123;
     color: black;
     width: 50%;
@@ -54,5 +59,19 @@ hr
     margin-top: 10px;
     min-height: 40px;
     border-radius: 20px;
+}
 
+@media screen and (min-width: 768px)
+{
+    .carousel_slide
+    {
+    max-width: 50%;
+    }
+ 
+    .welcomeBlock
+    {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    }
 }
