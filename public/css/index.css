@@ -3,12 +3,8 @@
     display: flex;
     width: 100%   
 }
-<<<<<<< HEAD
 .d-block>img
 {
-=======
-.d-block>img{
->>>>>>> features/formReturn
     width: 100%;
 }
 
@@ -23,27 +19,19 @@ h2
     border-width: 5px;
     border-color: #eb6123;
     width: 90%;
-<<<<<<< HEAD
+    margin-left:5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 15px;
     background-color: black;
-    padding: 10px;
-    margin: 10px;
-=======
-    margin:auto;
-    margin-top:20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    background-color: black;
-    padding: 10px;
->>>>>>> features/formReturn
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 hr 
 {
     margin: 0;
 }
-
-<<<<<<< HEAD
 .welcomeBlock
 {
     display: flex;
@@ -56,29 +44,10 @@ hr
 .description_box>p
 {
     margin: 0;
-=======
-.description_box>p
-{
-    margin: 0;
-    
->>>>>>> features/formReturn
-}
-
-.containerButton
-{
-<<<<<<< HEAD
-=======
-    
->>>>>>> features/formReturn
-    width: 100%;
 }
 
 .descriptionButton
 {
-<<<<<<< HEAD
-=======
-    
->>>>>>> features/formReturn
     background-color: #eb6123;
     color: black;
     width: 50%;
@@ -87,7 +56,6 @@ hr
     margin-top: 10px;
     min-height: 40px;
     border-radius: 20px;
-<<<<<<< HEAD
 }
 
 @media screen and (min-width: 768px)
@@ -103,7 +71,4 @@ hr
     justify-content: space-around;
     padding: 5px;
     }
-=======
-
->>>>>>> features/formReturn
 }

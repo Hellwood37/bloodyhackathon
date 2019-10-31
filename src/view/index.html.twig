@@ -2,11 +2,7 @@
 
 {#Chemin feuille de style#}
 {% block style %}
-<<<<<<< HEAD
 <link rel="stylesheet" href="css/index.css">
-=======
-<link rel="stylesheet" href="index.css">
->>>>>>> features/formReturn
 {% endblock %}
 
 {% block title %}
@@ -16,7 +12,6 @@
 
 {% block content %}
 {#CAROUSEL#}
-<<<<<<< HEAD
 
 <div id="carouselExampleInterval" class="carousel_slide mx-auto pt-md-2 " data-ride="carousel">
   <div class="carousel-inner">
@@ -28,19 +23,6 @@
     </div>
     <div class="carousel-item" data-interval="2000">
       <a href="https://goopics.net/i/k7PAo" class="d-block " alt="Evil dead"><img src="https://i.goopics.net/k7PAo.jpg" class="rounded" alt="Evil dead"></a> 
-=======
-<div>
-<div id="carouselExampleInterval" class="carousel_slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="10000">
-      <a href="https://goopics.net/i/VY1ev" class="d-block" alt="Annabelle"><img src="https://i.goopics.net/VY1ev.jpg" alt="Image"></a> 
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <a href="https://goopics.net/i/ama0R"class="d-block" alt="Human centiped"><img src="https://i.goopics.net/ama0R.jpg" alt="Image"></a> 
-    </div>
-    <div class="carousel-item">
-      <a href="https://goopics.net/i/k7PAo" class="d-block w-100" alt="Evil dead"><img src="https://i.goopics.net/k7PAo.jpg" alt="Image"></a> 
->>>>>>> features/formReturn
     </div>
   </div>
   </a>
@@ -48,30 +30,6 @@
 
 
 {#ACCUEIL#}
-
-<<<<<<< HEAD
-<div class="welcomeBlock">
-  <div class="description_box">
-    <h2>Lancez vous !</h2>
-    <p>Même si vous n'avez pas de pétrole, vous avez des idées ! Chair de pitch vous permets de pitcher votre idée de film d'horreur. Donner de la visibilité à votre idée peut vous permettre de créer les conditons de sa réalisation.</p>
-  </div>
-  <div class="description_box">
-    <h2>Créez votre pitch</h2>
-    <p>Ici vous pourrez libérer votre imagination ! Donnez un titre à votre film, nommez vos protagonistes et créez un pitch rapide de votre idée.</p>
-    <div class="containerButton">
-      <input class="descriptionButton" type="submit" value="Créez">
-    </div>  
-  </div>
-  <div class="description_box">
-    <h2>Consultez les pitchs</h2>
-    <p>Chers producteurs, vous recherchez la perle rare? Trouvez ici votre future pépite !</p>
-    <div class="containerButton">
-      <input class="descriptionButton" type="submit" value="Consultez">
-    </div>
-  </div>
-</div>
-
-=======
 <div class="description_box">
   <h2>Lancez vous !</h2>
   <p>Même si vous n'avez pas de pétrole, vous avez des idées ! Chair de pitch vous permets de pitcher votre idée de film d'horreur. Donner de la visibilité à votre idée peut vous permettre de créer les conditons de sa réalisation.</p>
@@ -81,7 +39,7 @@
   <h2>Créez votre pitch</h2>
   <p>Ici vous pourrez libérer votre imagination ! Donnez un titre à votre film, nommez vos protagonistes et créez un pitch rapide de votre idée.</p>
   <div class="containerButton">
-    <input class="descriptionButton" type="submit" value="Créez">
+    <a href="creation.php"><input class="descriptionButton" type="submit" value="Créez"></a>
   </div>  
 </div>
 <hr>
@@ -93,5 +51,4 @@
   </div>
 </div>
 <hr>
->>>>>>> features/formReturn
 {% endblock %}
