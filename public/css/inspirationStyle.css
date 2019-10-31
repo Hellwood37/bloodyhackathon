@@ -13,7 +13,7 @@
     border-style: outset;
     border-width: 5px;
     border-color: #eb6123;
-    margin: 10px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -21,6 +21,7 @@
     text-align: center;
     font-size: 1.5em;
 }
+
 @media screen and (min-width: 769px){
     .bad-guys-list{
         display: flex;
