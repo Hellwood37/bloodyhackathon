@@ -7,6 +7,11 @@
 }
 
 /*navbar*/
+body{
+    background-image: url("images/foret-nuit.jpg");
+    background
+    background-color: #303030;
+}
 .tiret{
     border:solid 1px #eb6123;
     width: 28px;
@@ -22,7 +27,8 @@
 
 .navbar
 {
-    background-color: #303030;
+    background-color: black;
+    opacity: 0.9;
 }
 
 .navbar a
@@ -43,7 +49,8 @@
 /*footer*/
 .footer ul
 {
-    background-color: #303030;
+    background-color: black;
+    opacity: 0.9;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
